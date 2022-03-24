@@ -48,7 +48,7 @@ yarn start
 
 # run the test
 
-npm test
+yarn test
 
 ```
 
