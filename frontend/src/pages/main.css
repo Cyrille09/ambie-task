@@ -1,0 +1,51 @@
+.rightSide {
+  text-align: right;
+}
+.errorMessage {
+  color: rgb(109, 8, 8);
+}
+.colSpan {
+  text-align: center;
+}
+/* Pagination */
+.paginationBttns {
+  margin-top: 40px;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: #2b2eff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: gray;
+}
+.HeaderTitle {
+  font-weight: bold;
+}
+.paginationActive a {
+  color: white;
+  background-color: gray;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: white;
+  pointer-events: none;
+}
+.pgBtSp {
+  margin-bottom: 30px;
+}
+
+/* End of pagination */

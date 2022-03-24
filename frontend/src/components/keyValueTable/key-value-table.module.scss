@@ -1,0 +1,55 @@
+.table {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.title {
+  padding: 0.75rem 1rem;
+  background: blue;
+  color: #ffffff;
+  margin: 0;
+}
+
+.row {
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.row + .row {
+  border-top: 1px solid #e5e7eb;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: grey;
+  text-transform: uppercase;
+  flex: none;
+  width: 240px;
+  padding-right: 20px;
+}
+.value {
+  flex: 1;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.titleSide {
+  flex: 1;
+  text-transform: capitalize;
+}
+.cbuttonSide {
+  flex: none;
+  width: auto;
+
+  button {
+    margin-left: 0.5em;
+  }
+}
